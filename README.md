@@ -90,10 +90,10 @@ It differentiates between a simple move and a capture or a special maneuver like
 ### start of the game:
 <img width="1122" height="787" alt="start" src="https://github.com/user-attachments/assets/9307573d-c6b0-4fe1-a2b4-d7f2907b53f5" />
 
-## middle of the game:
+### middle of the game:
 <img width="1122" height="788" alt="middle" src="https://github.com/user-attachments/assets/480bafbe-d9e0-48c5-9223-8440d774ffbe" />
 
-# end of the game:
+### end of the game:
 <img width="1122" height="787" alt="end" src="https://github.com/user-attachments/assets/82b490a7-fdf5-45c7-9550-2005e74b7bc8" />
 
 
