@@ -165,7 +165,7 @@ class ChessSimulator:
         self.draw_board()
         self.move_label.config(text=f"Current Move {self.move_index}/{len(self.moves)}:")
         if self.move_index == 0:
-            self.current_move_text.config(text="")
+            self.current_move_text.config(text="", fg="black")
             return
         
         if self.move_index == len(self.moves):
@@ -263,7 +263,7 @@ class ChessSimulator:
             current_move = self.moves[self.move_index]
             readable_move = self.get_human_move(current_move)
             print(readable_move)
-            self.current_move_text.config(text=readable_move)
+            self.current_move_text.config(text=readable_move, fg="black")
             self.board.push(current_move)
             self.move_index += 1
             self.update_ui()
@@ -282,7 +282,7 @@ class ChessSimulator:
                 readable_move = "Back to start"
 
             print(readable_move)
-            self.current_move_text.config(text=readable_move)
+            self.current_move_text.config(text=readable_move, fg="black")
             self.update_ui()    
 
     def go_to_start(self):
