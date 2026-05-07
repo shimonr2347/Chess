@@ -39,8 +39,8 @@ pip install python-chess
 ```
 
 
-📂 Project Structure
-Plaintext
+## 📂 Project Structure
+```
 ├── asset/                 # Directory containing screenshots
 │   └── end.png
 │   └── middle.png
@@ -56,6 +56,7 @@ Plaintext
 |       └── capmemel24_9.pgn
 ├── chess_viewer.py        # Main application script
 └── README.md
+```
 
 🚦 How to Use
 Prepare your PGNs: Place your .pgn files inside folders within the splited_pgns directory.
