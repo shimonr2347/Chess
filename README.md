@@ -34,8 +34,9 @@ File Management: pathlib for robust cross-platform path handling
 📋 Prerequisites
 Before running the application, ensure you have the python-chess library installed:
 
-Bash
+``` bash
 pip install python-chess
+```
 
 
 📂 Project Structure
