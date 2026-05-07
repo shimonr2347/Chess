@@ -36,9 +36,10 @@ Before running the application, ensure you have the python-chess library install
 
 Bash
 pip install python-chess
+
+
 📂 Project Structure
 Plaintext
-.
 ├── asset/                 # Directory containing screenshots
 │   └── end.png
 │   └── middle.png
